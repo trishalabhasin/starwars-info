@@ -3,17 +3,6 @@ import styled, { keyframes } from 'styled-components';
 
 import { ReactComponent as LoaderLogo } from 'src/shared/assets/icon/loader.svg';
 
-
-
-const loaderSpin = keyframes`
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-`;
-
 const LoaderStyle = styled.div`
   width: 100%;
   display: flex;
@@ -22,7 +11,6 @@ const LoaderStyle = styled.div`
   min-height: 70vh;
 
   .loader-logo {
-    animation: ${loaderSpin} infinite 2.5s linear;
     height: 8rem;
   }
 `;
