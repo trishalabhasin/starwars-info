@@ -6,7 +6,7 @@ This project displays the list of starwars movies along with all the data associ
 
 ### Note
 
-This app is hosted on heroku and can be found at: [here] (https://starwar-trish.herokuapp.com/).  https://starwar-trish.herokuapp.com/
+This app is hosted on heroku and can be found at: [here](https://starwar-trish.herokuapp.com/)
 
 ### Logic for search bar on the movies page
 
@@ -47,34 +47,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
 
-## Folder Structure
+## Folder Details
 
-```
-|-- src/
-    |-- components/
-    |-- shared/
-        |-- assets/
-            |-- fonts/
-            |-- icon/
-            |-- images/
-        |-- components/
-            |-- Loader/
-        |-- constants/
-        |-- helpers/
-        |-- hooks/
-        |-- styles/
-            |-- base/
-            |-- themes/
-    |-- App.js
-    |-- index.js
-
-```
-
-- `components` : Folder to put all the components that are not shared
-- `shared/assets` : Folder to put assets like fonts, icons and images
-- `shared/components`: Folder to put all shared Components
-- `shared/constants` : Folder to put all of the constant like `api url`, `mock`, `action types` and all others constant data that does not change
-- `shared/helpers` : Folder to put the function like Consume API and formating data or others that help retreive clean data
-- `shared/hooks` : Folder to put all of the custom hooks/logic for component
-- `styles` : Folder to put the Styled Components that we can reuse
+1. `components` : Folder to put all the components that are not shared 
+2. `shared/assets` : Folder to put assets like fonts, icons and images
+3. `shared/components`: Folder to put all shared Components
+4. `shared/constants` : Folder to put all of the constant like `api url`, `action types` and all others constant data that remains the same
+5. `shared/helpers` : Folder to put the function like Consume API and formating data or others that help retreive clean data
+6. `shared/hooks` : Folder to put all of the custom hooks/logic for component
+7. `styles` : Folder to put the Styled Components that can be reused
 
