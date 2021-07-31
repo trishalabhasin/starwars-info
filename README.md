@@ -1,11 +1,12 @@
 # Star Wars Movies React project
 
 This project is created with [Create React App](https://github.com/facebook/create-react-app). Using API from [SWAPI](https://swapi.co).<br>
-This project displays the list of starwars movies along with all the data associated with it. You can select each movie to get more information about it. 
+This project displays the list of starwars movies along with all the data associated with it. You can select each movie to get more information about it.
+
 
 ### Note
 
-
+This app is hosted on heroku and can be found at: [here] (https://starwar-trish.herokuapp.com/).  https://starwar-trish.herokuapp.com/
 
 ### Logic for search bar on the movies page
 
@@ -59,7 +60,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
         |-- components/
             |-- Loader/
         |-- constants/
-        |-- cleaner/
+        |-- helpers/
         |-- hooks/
         |-- styles/
             |-- base/
@@ -73,7 +74,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 - `shared/assets` : Folder to put assets like fonts, icons and images
 - `shared/components`: Folder to put all shared Components
 - `shared/constants` : Folder to put all of the constant like `api url`, `mock`, `action types` and all others constant data that does not change
-- `shared/cleaner` : Folder to put the function like Consume API and formating data or others that help retreive clean data
+- `shared/helpers` : Folder to put the function like Consume API and formating data or others that help retreive clean data
 - `shared/hooks` : Folder to put all of the custom hooks/logic for component
 - `styles` : Folder to put the Styled Components that we can reuse
 
