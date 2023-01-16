@@ -1,0 +1,14 @@
+# Ignore editor stuff for now. We may want to include it at some point though?
+.idea
+.vscode
+
+# Ignore all node_modules folders (includes sub directories)
+node_modules/
+
+# By convertion, we ignore .env* files and dist/ folders. If a specific package needs to override this, it can
+# be done by putting !.env* or !dist/ in the respective package's .gitignore.
+.env*
+dist/
+
+# misc
+.DS_Store
